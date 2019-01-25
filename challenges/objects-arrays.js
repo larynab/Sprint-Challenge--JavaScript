@@ -74,7 +74,7 @@ const graduates = [{"id":1,"first_name":"Cynde","university":"Missouri Southern 
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
 
-let universities = [];
+const universities = [];
 
 
 function getUniversities(arr) {
@@ -114,11 +114,22 @@ contactInfo.forEach(function(element) {
 });
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. */
-
+/*
 const uni = graduates.filter((currentValue) =>{
   return currentValue.university > "Uni"
 });
 console.log(uni);
+*/
+
+const uni = [];
+ for( let i=0; i < graduates.length; i++ ) {
+   if(graduates[i].university.includes("Uni")){ 
+     uni.push(graduates[i].university);
+      };
+ };
+ console.log(uni);
+
+
 
 // ==== ADVANCED Array Methods ====
 
