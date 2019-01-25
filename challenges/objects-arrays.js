@@ -115,17 +115,10 @@ contactInfo.forEach(function(element) {
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called uni that contains them all. Log the result. */
 
-
-
 const uni = graduates.filter((currentValue) =>{
-  return currentValue.university = "Uni"
-});
-uni.filter(function(item) {
-  return item == 'Uni';
+  return currentValue.university > "Uni"
 });
 console.log(uni);
-
-
 
 // ==== ADVANCED Array Methods ====
 
