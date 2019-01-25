@@ -36,11 +36,9 @@ consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
 // Explanation: 
-/*
-`When activating a function, you open it up like a envelope. Anything inside an envelope is realated to eachother. 
-Once upon opening, if you wanted to read the content of "internal", you would need to unfold and hold the paper "nested function".`
-*/
 
+console.log(`When activating a function, you open it up like a envelope. Anything inside an envelope is realated to eachother. 
+Once upon opening, if you wanted to read the content of "internal", you would need to unfold and hold the paper "nested function".`);
 
 const external = "I'm outside the function";
 
